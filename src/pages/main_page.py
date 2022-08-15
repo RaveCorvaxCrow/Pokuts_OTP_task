@@ -15,7 +15,7 @@ class MainPage:
             name='Header',
             locator='//div[@id="mos-header"]')
         self.footer = PageElement(
-            name='Header',
+            name='Footer',
             locator='//div[@id="mos_footer"]')
         self.__links = '//a[@href]'
 
